@@ -1,33 +1,47 @@
 # 🌡️ Temperature Converter
 
-A simple temperature converter built with **HTML, CSS, and JavaScript**.
+A simple and responsive temperature converter built using **HTML, CSS, and JavaScript**.
 
-## Features
+## 🔗 Live Demo
 
-- Convert between **Celsius, Fahrenheit, and Kelvin**
-- Simple and responsive interface
-- Easy-to-use input and unit selection
+[View Temperature Converter](https://temperatureconverter-ten.vercel.app/)
+
+## ✨ Features
+
+- Convert between Celsius, Fahrenheit, and Kelvin
+- Simple and user-friendly interface
+- Responsive design
 - Displays results up to 2 decimal places
+- Handles invalid input
 
-## Technologies
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
 
-## How to Use
+## 🚀 How to Use
 
-1. Enter a temperature.
-2. Select the **From** unit.
-3. Select the **To** unit.
-4. Click **Convert**.
+1. Enter a temperature value.
+2. Select the unit to convert **from**.
+3. Select the unit to convert **to**.
+4. Click the **Convert** button.
 5. View the converted temperature.
 
-## Project Structure
+## 📐 Conversion Formulas
+
+- Celsius → Fahrenheit: `(C × 9/5) + 32`
+- Fahrenheit → Celsius: `(F − 32) × 5/9`
+- Celsius → Kelvin: `C + 273.15`
+- Kelvin → Celsius: `K − 273.15`
+- Fahrenheit → Kelvin: `(F − 32) × 5/9 + 273.15`
+- Kelvin → Fahrenheit: `(K − 273.15) × 9/5 + 32`
+
+## 📂 Project Structure
 
 ```text
 temperature-converter/
 ├── index.html
 ├── converter.css
-└── converter.js
-```
+├── converter.js
+└── README.md
